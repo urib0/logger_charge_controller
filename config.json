@@ -3,6 +3,5 @@
     "logdir_name": "log_solar",
     "interval": 5,
     "sensor_name": "AN1210",
-    "serial_port": "/dev/serial/by-id/hoge",
-    "serial_rate": 115200
+    "serial_port": "/dev/serial/by-id/hoge"
 }
