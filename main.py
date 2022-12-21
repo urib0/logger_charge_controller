@@ -17,7 +17,7 @@ def logging(path, name, data):
     f.close()
 
 # 設定値読み込み
-with open("./config.json", "r") as f:
+with open("/home/pi/work/logger_charge_controller/config.json", "r") as f:
     conf = json.loads(f.read())
 
 path = conf["basedir"] + "/" + conf["logdir_name"]
